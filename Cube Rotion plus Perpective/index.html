@@ -1,0 +1,41 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cube Rotation + Perspective</title>
+  </head>
+  <body>
+    <h1 class="headline">Cube Rotation + Perspective</h1>
+    <h2 class="headline">Manelisi Mpotulo</h2>
+    <canvas id="mycanvas" width="400" height="400"></canvas>
+
+    <div class="inputs">
+      <h3>Forward Camera Distance</h3>
+      <input
+        type="range"
+        class="slider"
+        min="-40"
+        max="50"
+        step="0.1"
+        value="3.0"
+        id="CamSlider"
+      />
+    </div>
+    <div id="buttons">
+      <button class="button" id="xButton">By x-axis</button>
+      <button class="button" id="yButton">By y-axis</button>
+      <button class="button" id="zButton">By z-axis</button>
+      <button class="button" id="allButton">By All Axis</button>
+      <button class="button" id="resetButton">Reset</button>
+    </div>
+    <script type="module" src="mat4.js"></script>
+    <script type="module" src="vec3.js"></script>
+    <script type="module" src="main.js"></script>
+    <!--<script src="main2.js"></script>-->
+  </body>
+</html>

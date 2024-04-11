@@ -1,0 +1,65 @@
+/** @format */
+h3{
+  margin: auto;
+  text-align: center;
+}
+
+
+#mycanvas {
+  border: 3px solid rgb(204, 50, 196);
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  box-shadow: 10px 10px 10px 0px;
+}
+.buttons {
+  padding-top: 10px;
+  display: block;
+  margin-left: 15%;
+}
+
+button {
+  display: inline;
+  margin: auto;
+  border: 3px rgb(155, 7, 111) groove;
+  box-shadow: 5px 5px 5px rgb(82, 5, 52);
+  padding: 3px 5px;
+}
+
+.headline{
+  text-align: center;
+  color: purple;
+  text-decoration: overline;
+}
+.inputs{
+  padding-top: 10px;
+  border-bottom: 2px solid purple;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.slider{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+}
+
+input[type="range"] {
+    background: linear-gradient(to right, #ddd, #ddd) no-repeat;
+    background-size: 100% 10px;
+    background-position: center;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+
+

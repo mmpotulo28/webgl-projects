@@ -1,0 +1,8 @@
+/** @format */
+
+.mycanvas {
+  border: 3px red solid;
+  display: block;
+  background-color: rgb(33, 179, 45);
+  margin: auto;
+}

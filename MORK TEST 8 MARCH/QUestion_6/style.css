@@ -1,0 +1,21 @@
+/** @format */
+
+#mycanvas {
+  border: 3px solid rgb(204, 50, 196);
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  box-shadow: 10px 10px 10px 0px;
+}
+#buttons {
+  padding-top: 10px;
+  display: block;
+  margin: auto;
+}
+
+.button {
+  margin: auto;
+  border: 3px rgb(155, 7, 111) groove;
+  box-shadow: 5px 5px 5px rgb(82, 5, 52);
+  padding: 3px 5px;
+}

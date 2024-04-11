@@ -1,0 +1,14 @@
+
+
+button{
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 8px;
+    font-size: medium;
+    width: auto;
+    display: inline;
+    margin: auto;
+}

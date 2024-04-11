@@ -1,0 +1,25 @@
+//get canvas and context reference
+
+//set cnavas color
+
+//set vertices and color coordinates
+
+//create, and bind position buffer
+
+//create and bind color buffer
+
+//create vertex shader
+
+//create js reference, pass shader source, and compile shader
+
+//create fragment shader
+
+//create js reference, pass shader source, and compile shader
+
+//create program, attach shaders and link
+
+//use program, enable vertex attributes
+
+//bind buffer and enable attribiute pointer
+
+//draw triangle

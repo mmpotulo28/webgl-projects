@@ -1,0 +1,19 @@
+/** @format */
+
+#mycanvas {
+  border: 3px solid rgb(204, 50, 196);
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  box-shadow: 10px 10px 10px 0px;
+}
+.inputs{
+  padding-top: 20px;
+  display: block;
+}
+.slider{
+  width: 60%;
+  display: block;
+  padding-top: 0;
+  margin-left: 20%;
+}

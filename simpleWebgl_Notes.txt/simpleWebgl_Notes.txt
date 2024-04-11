@@ -1,0 +1,21 @@
+//set canvas color
+
+//create position and color arrays
+
+//create and bind buffer
+
+//create vertex shader
+
+//create javascript reference, pass source AND COMPILE
+
+//create fragment shader
+
+//create javascript reference, pass source AND COMPILE
+
+//create, attach shader and link program
+
+//use program and enable attributes
+
+//bind buffer and define attribute pointer
+
+//draw
